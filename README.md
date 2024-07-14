@@ -1,3 +1,4 @@
+ HEAD
 i# alx_be_python
 
 ## fns_and_dsa
@@ -38,4 +39,22 @@ def main():
 
 if __name__ == "__main__":
     main()
+## shopping_list_manager.py
+
+The `shopping_list_manager.py` script is a simple shopping list manager that allows users to add items, view the current list, and remove items using a command-line interface. This script demonstrates the use of Python lists to store and manipulate data dynamically.
+
+### Features
+
+- **Add Item**: Allows the user to add an item to the shopping list.
+- **Remove Item**: Allows the user to remove an item from the shopping list. If the item is not found, a message is displayed indicating so.
+- **View List**: Displays all the items currently in the shopping list.
+- **Exit**: Exits the program.
+
+### Usage
+
+1. Run the script using Python:
+
+   ```sh
+   python shopping_list_manager.py
+ Add shopping list manager script
 
