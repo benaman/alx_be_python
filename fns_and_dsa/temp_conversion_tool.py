@@ -5,12 +5,10 @@ FAHRENHEIT_OFFSET = 32
 
 # Function to convert Fahrenheit to Celsius
 def convert_to_celsius(fahrenheit):
-    global FAHRENHEIT_TO_CELSIUS_FACTOR
     return (fahrenheit - FAHRENHEIT_OFFSET) * FAHRENHEIT_TO_CELSIUS_FACTOR
 
 # Function to convert Celsius to Fahrenheit
 def convert_to_fahrenheit(celsius):
-    global CELSIUS_TO_FAHRENHEIT_FACTOR
     return celsius * CELSIUS_TO_FAHRENHEIT_FACTOR + FAHRENHEIT_OFFSET
 
 # Main script
